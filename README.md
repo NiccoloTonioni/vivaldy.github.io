@@ -1,14 +1,15 @@
-# Nerfies
+# VIVALDy
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This repository contains source code for the [VIVALDy website](https://vivaldy.github.io)
 
-If you find Nerfies useful for your work please cite:
+If you find Vivaldy useful for your work please cite:
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+@article{tonioni2025vivaldy
+  author    = {Tonioni, Niccolò and Agostini, Lionel and Kerhervé, Franck and Cordier, Laurent and Vinuesa, Ricardo},
+  title     = {VIVALDy: A Hybrid Generative Reduced-Order Model for Turbulent Flows, Applied to Vortex-Induced Vibrations},
+  journal   = {arxiv},
+  year      = {2025},
+  url       = {https://arxiv.org/abs/2509.24965}
 }
 ```
 

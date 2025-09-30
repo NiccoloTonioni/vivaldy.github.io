@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
-  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+        content="VIVALDy: A Hybrid Generative Reduced-Order Model for Turbulent Flows.">
+  <meta name="keywords" content="Vivaldy, Reduced-Order Models, Turbulent Flows, Vortex-Induced Vibrations, Variational Autoencoders, Generative Adversarial Networks, Transformers">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nerfies: Deformable Neural Radiance Fields</title>
+  <title>VIVALDy: A Hybrid Generative Reduced-Order Model for Turbulent Flows</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script async src=""></script>
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -60,20 +60,20 @@
 
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
-          More Research
+          Sections
         </a>
         <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://hypernerf.github.io">
-            HyperNeRF
+          <a class="navbar-item" href="#framework">
+            Framework Overview
           </a>
-          <a class="navbar-item" href="https://nerfies.github.io">
-            Nerfies
+          <a class="navbar-item" href="#dataset">
+            Dataset
           </a>
-          <a class="navbar-item" href="https://latentfusion.github.io">
-            LatentFusion
+          <a class="navbar-item" href="#latent-space">
+            Informative Latent Space
           </a>
-          <a class="navbar-item" href="https://photoshape.github.io">
-            PhotoShape
+          <a class="navbar-item" href="#vivaldy-inference">
+            Vivaldy Inference
           </a>
         </div>
       </div>
@@ -88,39 +88,33 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Nerfies: Deformable Neural Radiance Fields</h1>
+          <h1 class="title is-2 publication-title">VIVALDy: A Hybrid Generative Reduced-Order Model for Turbulent Flows</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://keunhong.com">Keunhong Park</a><sup>1</sup>,</span>
+              <a href="https://niccolotonioni.github.io">Niccolò Tonioni</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://utkarshsinha.com">Utkarsh Sinha</a><sup>2</sup>,</span>
+              Lionel Agostini</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://jonbarron.info">Jonathan T. Barron</a><sup>2</sup>,
+              Franck Kehervé</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="http://sofienbouaziz.com">Sofien Bouaziz</a><sup>2</sup>,
+              Laurent Cordier</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="https://www.danbgoldman.com">Dan B Goldman</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://homes.cs.washington.edu/~seitz/">Steven M. Seitz</a><sup>1,2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="http://www.ricardomartinbrualla.com">Ricardo Martin-Brualla</a><sup>2</sup>
-            </span>
+              <a href="https://www.vinuesalab.com">Ricardo Vinuesa</a><sup>2,</sup><sup>3</sup>,
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>University of Washington,</span>
-            <span class="author-block"><sup>2</sup>Google Research</span>
+            <span class="author-block"><sup>1</sup>Pprime Institute, Université de Poitiers</span>
+            <span class="author-block"><sup>2</sup>Department of Aerospace Engineering, University of Michigan</span>
+            <span class="author-block"><sup>3</sup>FLOW, KTH Royal Institute of Technology</span>
           </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/pdf/2011.12948"
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -129,7 +123,7 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2011.12948"
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -137,19 +131,9 @@
                   <span>arXiv</span>
                 </a>
               </span>
-              <!-- Video Link. -->
-              <span class="link-block">
-                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
-                </a>
-              </span>
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/google/nerfies"
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -159,7 +143,7 @@
               </span>
               <!-- Dataset Link. -->
               <span class="link-block">
-                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="far fa-images"></i>
@@ -178,77 +162,248 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
-                type="video/mp4">
-      </video>
+      <!-- Case Selection Buttons -->
+      <div class="case-selector">
+        <button class="case-btn active" data-case="case1">Case 1 - Upper Branch</button>
+        <button class="case-btn" data-case="case2">Case 2 - Transition Branch</button>
+        <button class="case-btn" data-case="case3">Case 3 - Lower Branch</button>
+      </div>
+      
+      <!-- Interactive Image Comparison -->
+      <div class="image-comparison-container">
+        <div class="image-comparison-wrapper">
+          <!-- Ground Truth Image (right side) -->
+          <img class="comparison-image ground-truth" 
+               src="./static/images/ground_truth_case_1.png"  
+               alt="Ground Truth Flow Field"
+               id="ground-truth-img">
+          
+          <!-- Reconstruction Image (left side) -->
+          <img class="comparison-image reconstruction" 
+               src="./static/images/reconstruction_case_1.png" 
+               alt="VIVALDy Reconstruction"
+               id="reconstruction-img">
+          
+          <!-- Slider -->
+          <div class="comparison-slider">
+            <div class="slider-handle"></div>
+          </div>
+          
+          <!-- Labels -->
+          <div class="comparison-labels">
+            <span class="label-left">VIVALDy Reconstruction</span>
+            <span class="label-right">Ground Truth</span>
+          </div>
+        </div>
+      </div>
+      
       <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
+        <span class="nerf">VIVALDy</span> enables accurate flow field reconstruction from minimal sensor data. 
+        <br><small>Select a case above and drag the slider to compare reconstruction vs. ground truth.</small>
       </h2>
     </div>
   </div>
 </section>
 
+<style>
+/* Case Selector Styles */
+.case-selector {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
 
-<section class="hero is-light is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/steve.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/chair-tp.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/shiba.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/fullbody.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-blueshirt">
-          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/blueshirt.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-mask">
-          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/mask.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-coffee">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/coffee.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-toby">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/toby2.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+.case-btn {
+  padding: 10px 20px;
+  background: #f5f5f5;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  color: #666;
+}
 
+.case-btn:hover {
+  background: #e9e9e9;
+  border-color: #999;
+}
+
+.case-btn.active {
+  background: #007bff;
+  border-color: #007bff;
+  color: white;
+}
+
+/* Existing comparison styles... */
+.image-comparison-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+}
+
+.image-comparison-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.comparison-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+.reconstruction {
+  position: absolute;
+  top: 0;
+  left: 0;
+  clip-path: inset(0 50% 0 0);
+  transition: clip-path 0.1s ease;
+}
+
+.comparison-slider {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background: #666666;
+  cursor: ew-resize;
+  transform: translateX(-50%);
+}
+
+.slider-handle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  background: #666666;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.comparison-labels {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #333333;
+  text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const container = document.querySelector('.image-comparison-wrapper');
+  const slider = document.querySelector('.comparison-slider');
+  const reconstruction = document.querySelector('.reconstruction');
+  const groundTruthImg = document.getElementById('ground-truth-img');
+  const reconstructionImg = document.getElementById('reconstruction-img');
+  const caseButtons = document.querySelectorAll('.case-btn');
+  
+  // Image paths for different cases
+  const imagePaths = {
+    case1: {
+      groundTruth: './static/images/ground_truth_case_1.png',
+      reconstruction: './static/images/reconstruction_case_1.png'
+    },
+    case2: {
+      groundTruth: './static/images/ground_truth_case_2.png',
+      reconstruction: './static/images/reconstruction_case_2.png'
+    },
+    case3: {
+      groundTruth: './static/images/ground_truth_case_3.png',
+      reconstruction: './static/images/reconstruction_case_3.png'
+    }
+  };
+  
+  let isDragging = false;
+  
+  // Case selection functionality
+  caseButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      // Update active button
+      caseButtons.forEach(btn => btn.classList.remove('active'));
+      this.classList.add('active');
+      
+      // Get selected case
+      const selectedCase = this.dataset.case;
+      const paths = imagePaths[selectedCase];
+      
+      // Update images with fade effect
+      groundTruthImg.style.opacity = '0';
+      reconstructionImg.style.opacity = '0';
+      
+      setTimeout(() => {
+        groundTruthImg.src = paths.groundTruth;
+        reconstructionImg.src = paths.reconstruction;
+        groundTruthImg.style.opacity = '1';
+        reconstructionImg.style.opacity = '1';
+      }, 150);
+    });
+  });
+  
+  // Slider functionality (same as before)
+  function updateSlider(x) {
+    const rect = container.getBoundingClientRect();
+    const percentage = Math.max(0, Math.min(100, (x - rect.left) / rect.width * 100));
+    
+    slider.style.left = percentage + '%';
+    reconstruction.style.clipPath = `inset(0 ${100 - percentage}% 0 0)`;
+  }
+  
+  // Mouse events
+  slider.addEventListener('mousedown', function(e) {
+    isDragging = true;
+    e.preventDefault();
+  });
+  
+  document.addEventListener('mousemove', function(e) {
+    if (isDragging) {
+      updateSlider(e.clientX);
+    }
+  });
+  
+  document.addEventListener('mouseup', function() {
+    isDragging = false;
+  });
+  
+  // Touch events
+  slider.addEventListener('touchstart', function(e) {
+    isDragging = true;
+    e.preventDefault();
+  });
+  
+  document.addEventListener('touchmove', function(e) {
+    if (isDragging) {
+      updateSlider(e.touches[0].clientX);
+    }
+  });
+  
+  document.addEventListener('touchend', function() {
+    isDragging = false;
+  });
+  
+  // Click to move slider
+  container.addEventListener('click', function(e) {
+    if (e.target !== slider && !slider.contains(e.target)) {
+      updateSlider(e.clientX);
+    }
+  });
+});
+</script>
 
 <section class="section">
   <div class="container is-max-desktop">
@@ -258,49 +413,22 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
-          </p>
-          <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
-          </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+            Developing reduced-order models applicable to fluid-dynamics problems involving complex geometries and different flow 
+            conditions remains a critical challenge for turbulent flows. This study introduces VIVALDy, a novel machine-learning framework
+            that employs a hybrid β-Variational Autoencoder-Generative Adversarial Network (β-VAE-GAN) architecture with masked convolutions 
+            to extract dominant flow features into a compact latent space while preserving fidelity at solid-fluid interfaces. A bidirectional 
+            transformer then models the temporal evolution of these features, learning to predict flow trajectories from minimal sensor inputs. 
+            This two-stage approach enables the transformer to map sensor measurements to dominant flow variables identified by the autoencoder, 
+            advancing reduced-order modeling capabilities for real-time flow prediction. The effectiveness of the framework is demonstrated through 
+            application to vortex-induced vibration (VIV) energy harvesting systems, reconstructing turbulent flow around a one-degree-of-freedom 
+            moving cylinder. Validated against experimental data spanning fluid-structure interaction regimes of interest, VIVALDy accurately 
+            predicts different flow states using only the cylinder displacement, demonstrating robust performance in both reconstruction 
+            accuracy and statistical fidelity across diverse operating conditions.
           </p>
         </div>
       </div>
     </div>
     <!--/ Abstract. -->
-
-    <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-    <!--/ Paper video. -->
-  </div>
 </section>
 
 
@@ -308,140 +436,143 @@
   <div class="container is-max-desktop">
 
     <div class="columns is-centered">
-
-      <!-- Visual Effects. -->
-      <div class="column">
-        <div class="content">
-          <h2 class="title is-3">Visual Effects</h2>
+      <!-- Framework Overview. -->
+      <div class="column", id="framework">
+        <div class="content has-text-justified">
+          <h2 class="title is-3">Framework Overview</h2>
           <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
+            The VIVALDy framework combines two complementary architectures: a hybrid β-VAE-GAN to extract dominant flow features
+            into a compact latent space, and a bidirectional transformer to map sensor measurements to the flow variables identified
+            by this latent space. Masked convolutions are employed within the CNN architecture in the encoder and discriminator to handle
+            solid structures in the convolution field of view, significantly improving solid-fluid interface reconstruction quality. The use of the hybrid
+            architecture allows combining the individual strengths of both models, resulting in improved distribution-preserving
+            properties compared to a standard VAE and a more structured, informative latent space than that offered by a standalone GAN.
           </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/dollyzoom-stacked.mp4"
-                    type="video/mp4">
-          </video>
+          <p>
+            <strong>Training Phase:</strong> The β-VAE and discriminator are trained simultaneously in a generative adversarial framework, where the decoder serves as generator and receives evaluative feedback from the discriminator. A transformer model is then trained to predict latent variable evolution using only cylinder displacement as input.
+          </p>
+          <p>
+            <strong>Inference Phase:</strong> Only the transformer and decoder are retained to generate flow field predictions from displacement signals, enabling real-time flow reconstruction from minimal sensor data.
+          </p>
+          <img src="./static/images/GraphicVivaldy.png"
+               alt="VIVALDy Framework Architecture"
+               style="max-width: 100%; height: auto; margin: 2rem 0;">
         </div>
       </div>
-      <!--/ Visual Effects. -->
-
-      <!-- Matting. -->
-      <div class="column">
-        <h2 class="title is-3">Matting</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
-            </p>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/matting.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-
-        </div>
-      </div>
-    </div>
-    <!--/ Matting. -->
-
-    <!-- Animation. -->
+      <!--/ Framework Overview. -->
+    </div> 
     <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2>
-
-        <!-- Interpolating. -->
-        <h3 class="title is-4">Interpolating states</h3>
+      <!-- Vortex-Induced Vibration Dataset. -->
+      <div class="column", id="dataset">
+        <h2 class="title is-3">Dataset</h2>
         <div class="content has-text-justified">
           <p>
-            We can also animate the scene by interpolating the deformation latent codes of two input
-            frames. Use the slider here to linearly interpolate between the left frame and the right
-            frame.
+            The framework is tested on a problem relevant to vortex-induced vibration (VIV)
+            energy harvesting systems: the turbulent flow around a one-degree-of-freedom moving cylinder.
+            For this purpose we acquired velocity fields of an elastically mounted cylinder undergoing
+            VIV in the cross-flow direction using time-resolved Particle Image Velocimetry (PIV).
+            The acquired PIV measurements define a dataset of two-dimensional snapshots including the streamwise and crosswise velocity
+            fields for a total of 17 operating conditions. To evaluate the model's generalization capability to unseen
+            flow dynamics the test set comprises 5 operating conditions entirely separate from the training and validation sets.
           </p>
         </div>
-        <div class="columns is-vcentered interpolation-panel">
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_start.jpg"
-                 class="interpolation-image"
-                 alt="Interpolate start reference image."/>
-            <p>Start Frame</p>
-          </div>
-          <div class="column interpolation-video-column">
-            <div id="interpolation-image-wrapper">
-              Loading...
-            </div>
-            <input class="slider is-fullwidth is-large is-info"
-                   id="interpolation-slider"
-                   step="1" min="0" max="100" value="0" type="range">
-          </div>
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_end.jpg"
-                 class="interpolation-image"
-                 alt="Interpolation end reference image."/>
-            <p class="is-bold">End Frame</p>
-          </div>
-        </div>
-        <br/>
-        <!--/ Interpolating. -->
 
-        <!-- Re-rendering. -->
-        <h3 class="title is-4">Re-rendering the input video</h3>
-        <div class="content has-text-justified">
-          <p>
-            Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
-            viewpoint such as a stabilized camera by playing back the training deformations.
-          </p>
+        <!-- Two images side by side -->
+        <div class="columns">
+          <div class="column is-half">
+            <img src="./static/images/exp_dataset.png"
+                 alt="Experimental Set-up"
+                 style="width: 70%; height: auto;">
+          </div>
+          <div class="column is-half">
+            <img src="./static/images/cases_dataset.png"
+                 alt="Experimental Dataset Cases"
+                 style="width: 75%; height: auto;">
+          </div>
         </div>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 width="75%">
-            <source src="./static/videos/replay.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <!--/ Re-rendering. -->
-
       </div>
+      <!--/ Vortex-Induced Vibration Dataset. -->
     </div>
-    <!--/ Animation. -->
-
-
-    <!-- Concurrent Work. -->
     <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
-
+      <!-- Informative Latent Space. -->
+      <div class="column", id="latent-space">
+        <h2 class="title is-3">Informative Latent Space</h2>
         <div class="content has-text-justified">
           <p>
-            There's a lot of excellent work that was introduced around the same time as ours.
+            When tested on two operating conditions within the resonance region, the learned 
+            latent variables encode dynamical signatures characteristic of each flow regime. 
+            The latent space reveals stable annular orbits for the "lower branch" regime, 
+            characterized by highly periodic oscillations, and more irregular orbits for the 
+            "upper branch" regime, which exhibits a more irregular dynamics. This demonstrates that the latent space topology 
+            preserves significant information about the underlying flow physics while providing 
+            a geometrical interpretation of the flow dynamics.
           </p>
           <p>
-            <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
-          </p>
-          <p>
-            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
-            both use deformation fields to model non-rigid scenes.
-          </p>
-          <p>
-            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
-          </p>
-          <p>
-            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
+            The transformer predictions successfully capture these target attractor shapes, although volumetric contractions 
+            are observed, interpreted as implicit model regularization that prioritizes dominant 
+            dynamical structures over reproducing the full spectrum due to limited training data 
+            from the experimental dataset. 
           </p>
         </div>
-      </div>
-    </div>
-    <!--/ Concurrent Work. -->
 
+        <!-- Two GIFs side by side -->
+        <div class="columns">
+          <div class="column is-half has-text-centered">
+            <img src="./static/gif/latent_space_upper.gif"
+                 alt="Latent Space 3D View - Upper Branch"
+                 style="width: 80%; height: auto;">
+            <p class="has-text-weight-semibold" style="margin-top: 0.5rem;">Upper Branch</p>
+          </div>
+          <div class="column is-half has-text-centered">
+            <img src="./static/gif/latent_space_lower.gif"
+                 alt="Latent Space 3D View - Lower Branch"
+                 style="width: 80%; height: auto;">
+            <p class="has-text-weight-semibold" style="margin-top: 0.5rem;">Lower Branch</p>
+          </div>
+        </div>
+      </div>
+      <!--/ Informative Latent Space. -->
+    </div> 
+    <div class="columns is-centered">
+      <!-- Vivaldy Inference. -->
+      <div class="column", id="vivaldy-inference">
+        <h2 class="title is-3">Vivaldy Inference</h2>
+        <div class="content has-text-justified">
+          <p>
+            When VIVALDy is used in its inference phase, it reconstructs the turbulent velocity fields governing 
+            the vortex-induced vibration problem from just the cylinder displacement.
+          </p>
+          <p>
+            Comparing phase-averaged reconstructed flow fields to the acquired data from the test set 
+            shows that VIVALDy's predictions closely align with ground truth, accurately reproducing 
+            the coherent velocity structures that define the dominant wake topology. This demonstrates 
+            the framework's ability to capture essential flow physics from just the cylinder displacement signal.
+          </p>
+        </div>
+
+        <!-- Two GIFs side by side -->
+        <div class="columns">
+          <div class="column is-half has-text-centered">
+            <img src="./static/gif/flow_animation_truth.gif"
+                 alt="Phase Average Acquired Data - Lower Branch"
+                 style="width: 100%; height: auto;">
+            <p class="has-text-weight-semibold" style="margin-top: 0.5rem;">Acquired Fields</p>
+          </div>
+          <div class="column is-half has-text-centered">
+            <img src="./static/gif/flow_animation_pred.gif"
+                 alt="Phase Average Prediction - Lower Branch"
+                 style="width: 100%; height: auto;">
+            <p class="has-text-weight-semibold" style="margin-top: 0.5rem;">Predicted Fields</p>
+          </div>
+        </div>
+      </div>
+      <!--/ Vivaldy Inference. -->
+    </div> 
   </div>
 </section>
 
 
-<section class="section" id="BibTeX">
+<!-- <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>@article{park2021nerfies,
@@ -451,17 +582,17 @@
   year      = {2021},
 }</code></pre>
   </div>
-</section>
+</section> -->
 
 
 <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
       <a class="icon-link"
-         href="./static/videos/nerfies_paper.pdf">
+         href="./static/paper/">
         <i class="fas fa-file-pdf"></i>
       </a>
-      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+      <a class="icon-link" href="https://github.com/NiccoloTonioni/" class="external-link" disabled>
         <i class="fab fa-github"></i>
       </a>
     </div>
@@ -469,16 +600,10 @@
       <div class="column is-8">
         <div class="content">
           <p>
-            This website is licensed under a <a rel="license"
-                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            This website is based on <a href="https://nerfies.github.io"> the Nerfies website template</a>, which is licensed under a 
+            <a rel="license" 
+            href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-          <p>
-            This means you are free to borrow the <a
-              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
-            we just ask that you link back to this page in the footer.
-            Please remember to remove the analytics code included in the header of the website which
-            you do not want on your website.
           </p>
         </div>
       </div>

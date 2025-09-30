@@ -449,7 +449,7 @@ document.addEventListener('DOMContentLoaded', function() {
             properties compared to a standard VAE and a more structured, informative latent space than that offered by a standalone GAN.
           </p>
           <p>
-            <strong>Training Phase:</strong> The β-VAE and discriminator are trained simultaneously in a generative adversarial framework, where the decoder serves as generator and receives evaluative feedback from the discriminator. A transformer model is then trained to predict latent variable evolution using only cylinder displacement as input.
+            <strong>Training Phase:</strong> The β-VAE and discriminator are trained simultaneously in a generative adversarial framework, where the decoder serves as generator and receives evaluative feedback from the discriminator. A transformer model is then trained to predict latent variables evolution using only cylinder displacement as input.
           </p>
           <p>
             <strong>Inference Phase:</strong> Only the transformer and decoder are retained to generate flow field predictions from displacement signals, enabling real-time flow reconstruction from minimal sensor data.
